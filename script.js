@@ -36,12 +36,10 @@ function shufflePassword(array) {
 function handleSlider() {
     inputSlider.value = passwordLength;
     length.innerText = passwordLength;
-    //or kuch bhi karna chahiye ? - HW
 }
 
 function setIndicator(color) {
     indicator.style.backgroundColor = color;
-    //shadow - HW
 }
 
 function getRndInteger(min, max) {
